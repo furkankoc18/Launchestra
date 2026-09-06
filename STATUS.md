@@ -43,7 +43,7 @@ Son güncelleme: 2026-09-07.
 - DMG: `dist/0.1.0-beta.1/Launchestra-0.1.0-beta.1-arm64.dmg`
 - Checksum: `dist/0.1.0-beta.1/SHA256SUMS.txt`
 
-`dist/` ve `.build/` üretilmiş yerel çıktıdır, Git'e eklenmez. Son kaynak commit'i oluşturulduktan sonra beta betiği yeniden çalıştırılıp `SOURCE_COMMIT.txt` ile ilişki kesinleştirilir.
+Artifact kaynak commit'i `b09555900d49aec296b5d4b702f9d3e99b693aed`, yerel annotated tag `v0.1.0-beta.1` değeridir. ZIP SHA-256 `b953368683f58927dd1e90aa6652817832f5a6a49bbb518b89b34ba5770e8b1f`, DMG SHA-256 `b1d41df180f7958653a272bcc19f3f8a25c1c19e2d83f4954fb5be548ce08dbd` değeridir. `dist/` ve `.build/` üretilmiş yerel çıktıdır, Git'e eklenmez.
 
 ## Sonraki iş
 

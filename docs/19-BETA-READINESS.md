@@ -11,10 +11,16 @@ Tarih: 2026-09-07. Bu rapor DM-025–029 arasındaki yerel çıktı ile dış ya
 - Archive: `.build/release-0.1.0-beta.1/Launchestra.xcarchive`.
 - Dağıtım: `dist/0.1.0-beta.1/Launchestra-0.1.0-beta.1-arm64.zip` ve `.dmg`.
 - Paket içeriği: uygulama, MIT LICENSE, beta notu, KeyboardShortcuts lisans bildirimi ve kaynak commit kaydı.
+- Kaynak commit/tag: `b09555900d49aec296b5d4b702f9d3e99b693aed` / `v0.1.0-beta.1`.
 
 Archive `codesign --verify --deep --strict` kontrolünü geçti. CodeDirectory `adhoc,runtime` bayraklarını taşıyor, TeamIdentifier yok ve entitlements sözlüğü boş. Bu, Hardened Runtime'ın yerel archive üzerinde etkin olduğunu gösterir; Developer ID imzası değildir.
 
 ZIP ve DMG açılarak aynı içerik doğrulandı. ZIP içindeki uygulama yeni, izole bir profil diziniyle başlatıldı ve iki saniye sonra çalışmayı sürdürdü. İki artifact için `shasum -a 256 -c SHA256SUMS.txt` geçti.
+
+| Artifact | SHA-256 |
+| --- | --- |
+| `Launchestra-0.1.0-beta.1-arm64.zip` | `b953368683f58927dd1e90aa6652817832f5a6a49bbb518b89b34ba5770e8b1f` |
+| `Launchestra-0.1.0-beta.1-arm64.dmg` | `b1d41df180f7958653a272bcc19f3f8a25c1c19e2d83f4954fb5be548ce08dbd` |
 
 ## Doğrulama
 

@@ -238,7 +238,7 @@ Her görev için ortak teslim koşulu: ilgili kontrollerin gerçek sonucu, STATU
 - **Çıktı:** Kalıcı bundle ID, Release archive, ZIP/DMG, checksum ve test kaydı.
 - **Kabul:** İmza/Hardened Runtime/notarization/staple gerçekten kontrol edilir; sertifika yoksa yerel hazırlık tamam, imzalı yayın kısmı pending kalır. Gizli bilgiler repoya girmez.
 - **Doğrulama:** RELEASE checklist, REL-01; artifact sürüm/build tutarlılığı.
-- **İlerleme (2026-09-06):** Kalıcı bundle kimliği `io.github.furkankoc18.Launchestra`, sürüm `0.1.0`, build `1` olarak ayarlandı. Release archive/ZIP/DMG/checksum betiği ve beta notları hazırlandı. Bu makinede 0 geçerli code-signing identity bulundu; Developer ID/notarization/staple kısmı gerçek sertifika sağlanana kadar açıktır.
+- **İlerleme (2026-09-07):** Kalıcı bundle kimliği `io.github.furkankoc18.Launchestra`, sürüm `0.1.0`, build `1` olarak ayarlandı. `v0.1.0-beta.1` kaynak commit'inden thin arm64 Release archive, ZIP/DMG ve doğrulanmış SHA-256 dosyası üretildi; paket içeriği ve izole profil diziniyle açılış geçti. Ad-hoc imza `runtime` bayraklı ve bütünlük kontrolü geçiyor. Bu makinede 0 geçerli code-signing identity bulundu; `spctl` paketi reddetti ve stapler ticket bulamadı. Developer ID/notarization/staple kısmı gerçek sertifika sağlanana kadar açıktır.
 
 ## M5 — Yayın ve geri bildirim
 
