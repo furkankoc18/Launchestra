@@ -1,0 +1,96 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      run_ui_tests:
+        description: Run the optional macOS GUI regression suite
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  DEVELOPER_DIR: /Applications/Xcode_26.1.1.app/Contents/Developer
+
+jobs:
+  verify:
+    name: Package tests and app build
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - name: Check out source
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      - name: Record toolchain
+        run: |
+          set -euo pipefail
+          mkdir -p .build/ci-logs
+          xcodebuild -version | tee .build/ci-logs/xcode-version.txt
+          swift --version | tee .build/ci-logs/swift-version.txt
+          test "$(xcodebuild -version | head -n 1)" = "Xcode 26.1.1"
+
+      - name: Run package tests
+        run: |
+          set -euo pipefail
+          swift test --package-path Packages/DeskModeKit \
+            -Xswiftc -gnone -Xswiftc -warnings-as-errors \
+            2>&1 | tee .build/ci-logs/package-tests.log
+
+      - name: Build unsigned arm64 app
+        run: |
+          set -euo pipefail
+          xcodebuild -project DeskMode.xcodeproj -scheme DeskMode \
+            -configuration Debug -destination 'platform=macOS,arch=arm64' \
+            -derivedDataPath .build/ci-xcode CODE_SIGNING_ALLOWED=NO build \
+            2>&1 | tee .build/ci-logs/app-build.log
+
+      - name: Preserve verification logs
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: verification-logs
+          path: .build/ci-logs
+          if-no-files-found: error
+          retention-days: 14
+
+  ui-regression:
+    name: Optional GUI regression
+    if: github.event_name == 'workflow_dispatch' && inputs.run_ui_tests
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - name: Check out source
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      - name: Run UI regression suite
+        run: |
+          set -euo pipefail
+          mkdir -p .build/ci-ui-logs
+          xcodebuild -project DeskMode.xcodeproj -scheme DeskMode \
+            -configuration Debug -destination 'platform=macOS,arch=arm64' \
+            -derivedDataPath .build/ci-ui -parallel-testing-enabled NO test \
+            2>&1 | tee .build/ci-ui-logs/ui-tests.log
+
+      - name: Preserve UI logs and xcresult
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: ui-regression-results
+          path: |
+            .build/ci-ui-logs
+            .build/ci-ui/Logs/Test/*.xcresult
+          if-no-files-found: error
+          retention-days: 14

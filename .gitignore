@@ -1,0 +1,8 @@
+.DS_Store
+DerivedData/
+.build/
+dist/
+Packages/DeskModeKit/.build/
+xcuserdata/
+*.xcuserstate
+*.profraw

@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* DeskModeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* DeskModeApp.swift */; };
+		A10000000000000000000002 /* IntegrationLabMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* IntegrationLabMenu.swift */; };
+		A10000000000000000000003 /* IntegrationLabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* IntegrationLabModel.swift */; };
+		A10000000000000000000004 /* IntegrationLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* IntegrationLabView.swift */; };
+		A10000000000000000000005 /* IntegrationLabWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* IntegrationLabWindowController.swift */; };
+		A10000000000000000000006 /* DeskModeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* DeskModeUITests.swift */; };
+		A10000000000000000000007 /* DeskModeCore in Frameworks */ = {isa = PBXBuildFile; productRef = F10000000000000000000001 /* DeskModeCore */; };
+		A10000000000000000000008 /* DeskModePlatform in Frameworks */ = {isa = PBXBuildFile; productRef = F10000000000000000000002 /* DeskModePlatform */; };
+		A10000000000000000000009 /* DeskModeShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* DeskModeShell.swift */; };
+		A1000000000000000000000A /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* Localizable.xcstrings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C10000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D10000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E10000000000000000000001;
+			remoteInfo = DeskMode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* DeskModeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskModeApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* IntegrationLabMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationLabMenu.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* IntegrationLabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationLabModel.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* IntegrationLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationLabView.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* IntegrationLabWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationLabWindowController.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000000000000000000007 /* DeskMode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeskMode.entitlements; sourceTree = "<group>"; };
+		B10000000000000000000008 /* DeskModeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskModeUITests.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* Launchestra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Launchestra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1000000000000000000000A /* DeskModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeskModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1000000000000000000000C /* DeskModeShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskModeShell.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Resources/Localizable.xcstrings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A20000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000007 /* DeskModeCore in Frameworks */,
+				A10000000000000000000008 /* DeskModePlatform in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				B20000000000000000000002 /* App */,
+				B20000000000000000000005 /* Tests */,
+				B1000000000000000000000B /* Packages */,
+				B20000000000000000000006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B20000000000000000000002 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000001 /* DeskModeApp.swift */,
+				B1000000000000000000000C /* DeskModeShell.swift */,
+				B1000000000000000000000D /* Localizable.xcstrings */,
+				B20000000000000000000003 /* IntegrationLab */,
+				B10000000000000000000006 /* Info.plist */,
+				B10000000000000000000007 /* DeskMode.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B20000000000000000000003 /* IntegrationLab */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000002 /* IntegrationLabMenu.swift */,
+				B10000000000000000000003 /* IntegrationLabModel.swift */,
+				B10000000000000000000004 /* IntegrationLabView.swift */,
+				B10000000000000000000005 /* IntegrationLabWindowController.swift */,
+			);
+			path = Features/IntegrationLab;
+			sourceTree = "<group>";
+		};
+		B20000000000000000000005 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B20000000000000000000007 /* DeskModeUITests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		B20000000000000000000006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000009 /* Launchestra.app */,
+				B1000000000000000000000A /* DeskModeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20000000000000000000007 /* DeskModeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000008 /* DeskModeUITests.swift */,
+			);
+			path = DeskModeUITests;
+			sourceTree = "<group>";
+		};
+		B1000000000000000000000B /* Packages */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder;
+			path = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* DeskMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20000000000000000000001 /* Build configuration list for PBXNativeTarget "DeskMode" */;
+			buildPhases = (
+				A30000000000000000000001 /* Sources */,
+				A20000000000000000000001 /* Frameworks */,
+				A40000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeskMode;
+			packageProductDependencies = (
+				F10000000000000000000001 /* DeskModeCore */,
+				F10000000000000000000002 /* DeskModePlatform */,
+			);
+			productName = Launchestra;
+			productReference = B10000000000000000000009 /* Launchestra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E10000000000000000000002 /* DeskModeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20000000000000000000002 /* Build configuration list for PBXNativeTarget "DeskModeUITests" */;
+			buildPhases = (
+				A30000000000000000000002 /* Sources */,
+				A20000000000000000000002 /* Frameworks */,
+				A40000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C20000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = DeskModeUITests;
+			productName = DeskModeUITests;
+			productReference = B1000000000000000000000A /* DeskModeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					E10000000000000000000001 = { CreatedOnToolsVersion = 26.1.1; };
+					E10000000000000000000002 = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = E10000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = E20000000000000000000003 /* Build configuration list for PBXProject "DeskMode" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, tr, Base);
+			mainGroup = B20000000000000000000001;
+			packageReferences = (F20000000000000000000001 /* XCLocalSwiftPackageReference "Packages/DeskModeKit" */);
+			productRefGroup = B20000000000000000000006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (E10000000000000000000001 /* DeskMode */, E10000000000000000000002 /* DeskModeUITests */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40000000000000000000001 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000A /* Localizable.xcstrings in Resources */); runOnlyForDeploymentPostprocessing = 0; };
+		A40000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* DeskModeApp.swift in Sources */,
+				A10000000000000000000009 /* DeskModeShell.swift in Sources */,
+				A10000000000000000000002 /* IntegrationLabMenu.swift in Sources */,
+				A10000000000000000000003 /* IntegrationLabModel.swift in Sources */,
+				A10000000000000000000004 /* IntegrationLabView.swift in Sources */,
+				A10000000000000000000005 /* IntegrationLabWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (A10000000000000000000006 /* DeskModeUITests.swift in Sources */);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C20000000000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = E10000000000000000000001 /* DeskMode */; targetProxy = C10000000000000000000001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E30000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = App/DeskMode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.furkankoc18.Launchestra;
+				PRODUCT_NAME = Launchestra;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E30000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = App/DeskMode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.furkankoc18.Launchestra;
+				PRODUCT_NAME = Launchestra;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		E30000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.furkankoc18.LaunchestraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = DeskMode;
+			};
+			name = Debug;
+		};
+		E30000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.furkankoc18.LaunchestraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = DeskMode;
+			};
+			name = Release;
+		};
+		E30000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E30000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E20000000000000000000001 /* Build configuration list for PBXNativeTarget "DeskMode" */ = {isa = XCConfigurationList; buildConfigurations = (E30000000000000000000001 /* Debug */, E30000000000000000000002 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		E20000000000000000000002 /* Build configuration list for PBXNativeTarget "DeskModeUITests" */ = {isa = XCConfigurationList; buildConfigurations = (E30000000000000000000003 /* Debug */, E30000000000000000000004 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		E20000000000000000000003 /* Build configuration list for PBXProject "DeskMode" */ = {isa = XCConfigurationList; buildConfigurations = (E30000000000000000000005 /* Debug */, E30000000000000000000006 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F20000000000000000000001 /* XCLocalSwiftPackageReference "Packages/DeskModeKit" */ = {isa = XCLocalSwiftPackageReference; relativePath = Packages/DeskModeKit; };
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F10000000000000000000001 /* DeskModeCore */ = {isa = XCSwiftPackageProductDependency; package = F20000000000000000000001 /* XCLocalSwiftPackageReference "Packages/DeskModeKit" */; productName = DeskModeCore; };
+		F10000000000000000000002 /* DeskModePlatform */ = {isa = XCSwiftPackageProductDependency; package = F20000000000000000000001 /* XCLocalSwiftPackageReference "Packages/DeskModeKit" */; productName = DeskModePlatform; };
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D10000000000000000000001 /* Project object */;
+}

@@ -1,0 +1,2678 @@
+{
+  "sourceLanguage": "tr",
+  "strings": {
+    "Launchestra’ya Hoş Geldin": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome to Launchestra"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launchestra’ya Hoş Geldin"
+          }
+        }
+      }
+    },
+    "Uygulamalarını, klasörlerini ve web adreslerini bir profilde sırala; hazır olduğunda menü çubuğundan birlikte aç.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrange apps, folders, and websites in a profile, then open them together from the menu bar."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uygulamalarını, klasörlerini ve web adreslerini bir profilde sırala; hazır olduğunda menü çubuğundan birlikte aç."
+          }
+        }
+      }
+    },
+    "Menü çubuğundaki Launchestra simgesi profillerine her zaman ulaşmanı sağlar.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The Launchestra menu bar icon keeps your profiles within reach."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menü çubuğundaki Launchestra simgesi profillerine her zaman ulaşmanı sağlar."
+          }
+        }
+      }
+    },
+    "İlk profilin boş başlar. Sen seçmeden uygulama, klasör veya web adresi açılmaz.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your first profile starts empty. Nothing opens until you choose it."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İlk profilin boş başlar. Sen seçmeden uygulama, klasör veya web adresi açılmaz."
+          }
+        }
+      }
+    },
+    "Global kısayol ve girişte başlatma isteğe bağlıdır; başlangıçta kapalıdır.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Global shortcuts and launch at login are optional and start turned off."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Global kısayol ve girişte başlatma isteğe bağlıdır; başlangıçta kapalıdır."
+          }
+        }
+      }
+    },
+    "Şimdilik Geç": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not Now"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Şimdilik Geç"
+          }
+        }
+      }
+    },
+    "İlk Profilini Oluştur": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create Your First Profile"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İlk Profilini Oluştur"
+          }
+        }
+      }
+    },
+    "Başlangıç Rehberi…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Getting Started…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Başlangıç Rehberi…"
+          }
+        }
+      }
+    },
+    "Başlangıç Rehberini Aç": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Getting Started"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Başlangıç Rehberini Aç"
+          }
+        }
+      }
+    },
+    "Profiller": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profiles"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profiller"
+          }
+        }
+      }
+    },
+    "Profil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil"
+          }
+        }
+      }
+    },
+    "Profiller yükleniyor…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loading profiles…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profiller yükleniyor…"
+          }
+        }
+      }
+    },
+    "Henüz profil yok.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No profiles yet."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Henüz profil yok."
+          }
+        }
+      }
+    },
+    "İlk Profilini Oluştur…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create Your First Profile…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İlk Profilini Oluştur…"
+          }
+        }
+      }
+    },
+    "Profilleri Yönet…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manage Profiles…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profilleri Yönet…"
+          }
+        }
+      }
+    },
+    "Ayarlar…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar…"
+          }
+        }
+      }
+    },
+    "Ayarlar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar"
+          }
+        }
+      }
+    },
+    "Teknik Deneyler…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Technical Experiments…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teknik Deneyler…"
+          }
+        }
+      }
+    },
+    "Launchestra'dan Çık": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quit Launchestra"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launchestra'dan Çık"
+          }
+        }
+      }
+    },
+    "Oluştur": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oluştur"
+          }
+        }
+      }
+    },
+    "Henüz Profil Yok": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Profiles Yet"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Henüz Profil Yok"
+          }
+        }
+      }
+    },
+    "İlk çalışma profilini oluşturabilirsin.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create your first work profile."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İlk çalışma profilini oluşturabilirsin."
+          }
+        }
+      }
+    },
+    "Yeni Profil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Profile"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yeni Profil"
+          }
+        }
+      }
+    },
+    "Çoğalt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duplicate"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çoğalt"
+          }
+        }
+      }
+    },
+    "Yukarı": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move Up"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yukarı"
+          }
+        }
+      }
+    },
+    "Aşağı": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move Down"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aşağı"
+          }
+        }
+      }
+    },
+    "Sil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sil"
+          }
+        }
+      }
+    },
+    "Profil adı": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile name"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil adı"
+          }
+        }
+      }
+    },
+    "Hata politikası": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failure policy"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hata politikası"
+          }
+        }
+      }
+    },
+    "Devam et": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Devam et"
+          }
+        }
+      }
+    },
+    "İlk hatada dur": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop on first error"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İlk hatada dur"
+          }
+        }
+      }
+    },
+    "Kısayol": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shortcut"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kısayol"
+          }
+        }
+      }
+    },
+    "Boş bırakabilir veya bu profile özel bir global kısayol atayabilirsin.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leave blank or assign a global shortcut to this profile."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Boş bırakabilir veya bu profile özel bir global kısayol atayabilirsin."
+          }
+        }
+      }
+    },
+    "Eylemler": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actions"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eylemler"
+          }
+        }
+      }
+    },
+    "Uygulama Ekle…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add App…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uygulama Ekle…"
+          }
+        }
+      }
+    },
+    "Klasör Ekle…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Folder…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klasör Ekle…"
+          }
+        }
+      }
+    },
+    "URL Ekle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add URL"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "URL Ekle"
+          }
+        }
+      }
+    },
+    "İptal": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İptal"
+          }
+        }
+      }
+    },
+    "Kaydet": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydet"
+          }
+        }
+      }
+    },
+    "Kaydediliyor…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saving…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydediliyor…"
+          }
+        }
+      }
+    },
+    "Profil Seçilmedi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Profile Selected"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil Seçilmedi"
+          }
+        }
+      }
+    },
+    "Etkin": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enabled"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Etkin"
+          }
+        }
+      }
+    },
+    "Etiket (isteğe bağlı)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Label (optional)"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Etiket (isteğe bağlı)"
+          }
+        }
+      }
+    },
+    "Kaldır": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaldır"
+          }
+        }
+      }
+    },
+    "Değiştir…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Değiştir…"
+          }
+        }
+      }
+    },
+    "Son Çalıştırma": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last Run"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Son Çalıştırma"
+          }
+        }
+      }
+    },
+    "Sonucu Göster…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Result…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sonucu Göster…"
+          }
+        }
+      }
+    },
+    "Profili Düzenle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Profile"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profili Düzenle"
+          }
+        }
+      }
+    },
+    "Henüz Çalıştırma Yok": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Runs Yet"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Henüz Çalıştırma Yok"
+          }
+        }
+      }
+    },
+    "Kabul, hedef uygulamanın veya sayfanın tamamen hazır olduğu anlamına gelmez.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accepted means macOS accepted the open request; it does not mean the app or page is fully ready."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kabul, hedef uygulamanın veya sayfanın tamamen hazır olduğu anlamına gelmez."
+          }
+        }
+      }
+    },
+    "Girişte başlat": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launch at Login"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Girişte başlat"
+          }
+        }
+      }
+    },
+    "Durum": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Durum"
+          }
+        }
+      }
+    },
+    "Kapalı": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Off"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kapalı"
+          }
+        }
+      }
+    },
+    "Açık": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Açık"
+          }
+        }
+      }
+    },
+    "Onay gerekiyor": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Approval Required"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Onay gerekiyor"
+          }
+        }
+      }
+    },
+    "Kullanılamıyor": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unavailable"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kullanılamıyor"
+          }
+        }
+      }
+    },
+    "Giriş Öğeleri Ayarlarını Aç": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Login Items Settings"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giriş Öğeleri Ayarlarını Aç"
+          }
+        }
+      }
+    },
+    "Veriler": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veriler"
+          }
+        }
+      }
+    },
+    "Konum": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Location"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Konum"
+          }
+        }
+      }
+    },
+    "Belirlenemedi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unavailable"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Belirlenemedi"
+          }
+        }
+      }
+    },
+    "Finder’da Göster": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show in Finder"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finder’da Göster"
+          }
+        }
+      }
+    },
+    "Hakkında": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hakkında"
+          }
+        }
+      }
+    },
+    "Uygulama": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Application"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uygulama"
+          }
+        }
+      }
+    },
+    "Sürüm": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sürüm"
+          }
+        }
+      }
+    },
+    "Derleme": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Build"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Derleme"
+          }
+        }
+      }
+    },
+    "Gizlilik": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gizlilik"
+          }
+        }
+      }
+    },
+    "Profiller bu Mac'te saklanır. Launchestra URL içeriğini indirmez ve açılan kaynakların hazır olduğunu izlemez.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profiles are stored on this Mac. Launchestra does not download URL content or monitor whether opened resources are ready."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profiller bu Mac'te saklanır. Launchestra URL içeriğini indirmez ve açılan kaynakların hazır olduğunu izlemez."
+          }
+        }
+      }
+    },
+    "Profil Verisini Kurtar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recover Profile Data"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil Verisini Kurtar"
+          }
+        }
+      }
+    },
+    "Profil verisi için kullanıcı kararı gerekiyor.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your profile data needs your decision."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil verisi için kullanıcı kararı gerekiyor."
+          }
+        }
+      }
+    },
+    "Kurtarmayı Aç…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Recovery…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kurtarmayı Aç…"
+          }
+        }
+      }
+    },
+    "Yedek tarihi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup date"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yedek tarihi"
+          }
+        }
+      }
+    },
+    "Launchestra sen bir seçim yapana kadar profil dosyasını değiştirmez ve profilleri çalıştırmaz.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launchestra will not change the profile file or run profiles until you choose an action."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launchestra sen bir seçim yapana kadar profil dosyasını değiştirmez ve profilleri çalıştırmaz."
+          }
+        }
+      }
+    },
+    "Veri Klasörünü Göster": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Data Folder"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veri Klasörünü Göster"
+          }
+        }
+      }
+    },
+    "Yeni Yapılandırma…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Configuration…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yeni Yapılandırma…"
+          }
+        }
+      }
+    },
+    "Doğrulanmış Yedeği Kullan": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Verified Backup"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Doğrulanmış Yedeği Kullan"
+          }
+        }
+      }
+    },
+    "Kurtarma Gerekmiyor": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recovery Is Not Needed"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kurtarma Gerekmiyor"
+          }
+        }
+      }
+    },
+    "Yeni yapılandırma oluşturulsun mu?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create a new configuration?"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yeni yapılandırma oluşturulsun mu?"
+          }
+        }
+      }
+    },
+    "Özgün Veriyi Koru ve Sıfırla": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preserve Original Data and Reset"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Özgün Veriyi Koru ve Sıfırla"
+          }
+        }
+      }
+    },
+    "Vazgeç": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vazgeç"
+          }
+        }
+      }
+    },
+    "Launchestra önce mevcut verinin recovery kopyasını oluşturur. Kopya yazılamazsa sıfırlama yapılmaz.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launchestra first creates a recovery copy of the current data. Reset stops if the copy cannot be written."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launchestra önce mevcut verinin recovery kopyasını oluşturur. Kopya yazılamazsa sıfırlama yapılmaz."
+          }
+        }
+      }
+    },
+    "Kaydedilmemiş değişiklikler var": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You Have Unsaved Changes"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydedilmemiş değişiklikler var"
+          }
+        }
+      }
+    },
+    "Değişiklikleri Bırak": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discard Changes"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Değişiklikleri Bırak"
+          }
+        }
+      }
+    },
+    "Düzenlemeye Dön": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep Editing"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Düzenlemeye Dön"
+          }
+        }
+      }
+    },
+    "Devam etmeden önce taslağı kaydet veya değişiklikleri bırak.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save the draft or discard your changes before continuing."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Devam etmeden önce taslağı kaydet veya değişiklikleri bırak."
+          }
+        }
+      }
+    },
+    "Uygulamayı Değiştir": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change Application"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uygulamayı Değiştir"
+          }
+        }
+      }
+    },
+    "Klasör Ekle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Folder"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klasör Ekle"
+          }
+        }
+      }
+    },
+    "Klasörü Değiştir": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change Folder"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klasörü Değiştir"
+          }
+        }
+      }
+    },
+    "Launchestra'dan çıkılsın mı?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quit Launchestra?"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launchestra'dan çıkılsın mı?"
+          }
+        }
+      }
+    },
+    "Çıkış kalan adımları durdurur. Daha önce açılan kaynaklar açık kalır.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitting stops remaining steps. Resources already opened stay open."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çıkış kalan adımları durdurur. Daha önce açılan kaynaklar açık kalır."
+          }
+        }
+      }
+    },
+    "Çık ve Kalanları Durdur": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quit and Stop Remaining Steps"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çık ve Kalanları Durdur"
+          }
+        }
+      }
+    },
+    "Geri Dön": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go Back"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geri Dön"
+          }
+        }
+      }
+    },
+    "Yeni Yapılandırma": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Configuration"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yeni Yapılandırma"
+          }
+        }
+      }
+    },
+    "Genel": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "General"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Genel"
+          }
+        }
+      }
+    },
+    "Profil verisi okunamadı. Dosya değiştirilmedi.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile data could not be read. The file was not changed."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil verisi okunamadı. Dosya değiştirilmedi."
+          }
+        }
+      }
+    },
+    "Yedek geri yüklenemedi. Özgün dosyalar değiştirilmedi.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The backup could not be restored. Original files were not changed."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yedek geri yüklenemedi. Özgün dosyalar değiştirilmedi."
+          }
+        }
+      }
+    },
+    "Yeni yapılandırma oluşturulamadı. Özgün dosyalar korundu.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A new configuration could not be created. Original files were preserved."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yeni yapılandırma oluşturulamadı. Özgün dosyalar korundu."
+          }
+        }
+      }
+    },
+    "Doğrulanmış yedek": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verified backup"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Doğrulanmış yedek"
+          }
+        }
+      }
+    },
+    "http:// veya https:// ile başlayan geçerli bir adres gir.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter a valid address beginning with http:// or https://."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "http:// veya https:// ile başlayan geçerli bir adres gir."
+          }
+        }
+      }
+    },
+    "Başka bir profil çalışıyor.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Another profile is running."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Başka bir profil çalışıyor."
+          }
+        }
+      }
+    },
+    "Profil çalıştırılamadı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The profile could not be run."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil çalıştırılamadı."
+          }
+        }
+      }
+    },
+    "Tekrar Dene": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try Again"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekrar Dene"
+          }
+        }
+      }
+    },
+    "Launchestra oturum açıldığında kendiliğinden başlamaz.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launchestra does not start automatically when you sign in."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launchestra oturum açıldığında kendiliğinden başlamaz."
+          }
+        }
+      }
+    },
+    "Launchestra sonraki oturum açılışlarında macOS tarafından başlatılabilir. Hiçbir profil otomatik çalıştırılmaz.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS may start Launchestra at future logins. No profile runs automatically."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launchestra sonraki oturum açılışlarında macOS tarafından başlatılabilir. Hiçbir profil otomatik çalıştırılmaz."
+          }
+        }
+      }
+    },
+    "macOS onayı gerekiyor. Sistem Ayarları’ndaki Giriş Öğeleri bölümünde Launchestra’ya izin ver.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS approval is required. Allow Launchestra in Login Items in System Settings."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS onayı gerekiyor. Sistem Ayarları’ndaki Giriş Öğeleri bölümünde Launchestra’ya izin ver."
+          }
+        }
+      }
+    },
+    "macOS bu uygulama paketini giriş öğesi olarak bulamadı. Uygulamayı Applications klasörüne taşıdıktan sonra yeniden dene.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS could not find this app bundle as a login item. Move it to Applications and try again."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS bu uygulama paketini giriş öğesi olarak bulamadı. Uygulamayı Applications klasörüne taşıdıktan sonra yeniden dene."
+          }
+        }
+      }
+    },
+    "Girişte başlatma açıldı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launch at login is on."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Girişte başlatma açıldı."
+          }
+        }
+      }
+    },
+    "Girişte başlatma kapatıldı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launch at login is off."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Girişte başlatma kapatıldı."
+          }
+        }
+      }
+    },
+    "Kayıt oluşturuldu; etkinleşmesi için macOS onayı gerekiyor.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The login item was registered and needs macOS approval."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kayıt oluşturuldu; etkinleşmesi için macOS onayı gerekiyor."
+          }
+        }
+      }
+    },
+    "Giriş öğesi uygulama paketinde bulunamadı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The login item was not found in the app bundle."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giriş öğesi uygulama paketinde bulunamadı."
+          }
+        }
+      }
+    },
+    "Girişte başlatma açılamadı. macOS durumunu kontrol edip yeniden dene.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launch at login could not be enabled. Check macOS status and try again."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Girişte başlatma açılamadı. macOS durumunu kontrol edip yeniden dene."
+          }
+        }
+      }
+    },
+    "Girişte başlatma kapatılamadı. macOS durumunu kontrol edip yeniden dene.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Launch at login could not be disabled. Check macOS status and try again."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Girişte başlatma kapatılamadı. macOS durumunu kontrol edip yeniden dene."
+          }
+        }
+      }
+    },
+    "Veri klasörünün konumu belirlenemedi.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The data folder location could not be determined."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veri klasörünün konumu belirlenemedi."
+          }
+        }
+      }
+    },
+    "Veri klasörü Finder’da açılamadı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The data folder could not be opened in Finder."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veri klasörü Finder’da açılamadı."
+          }
+        }
+      }
+    },
+    "Ana profil dosyası bulunamadı. Kullanılabilir doğrulanmış bir yedek var.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The main profile file is missing. A verified backup is available."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ana profil dosyası bulunamadı. Kullanılabilir doğrulanmış bir yedek var."
+          }
+        }
+      }
+    },
+    "Ana profil dosyası bulunamadı; mevcut yedek de doğrulanamadı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The main profile file is missing and the existing backup could not be verified."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ana profil dosyası bulunamadı; mevcut yedek de doğrulanamadı."
+          }
+        }
+      }
+    },
+    "Ana profil dosyası bozuk veya geçersiz. Doğrulanmış yedeği geri yükleyebilirsin.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The main profile file is corrupt or invalid. You can restore the verified backup."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ana profil dosyası bozuk veya geçersiz. Doğrulanmış yedeği geri yükleyebilirsin."
+          }
+        }
+      }
+    },
+    "Ana profil dosyası bozuk ve kullanılabilir doğrulanmış yedek yok.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The main profile file is corrupt and no verified backup is available."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ana profil dosyası bozuk ve kullanılabilir doğrulanmış yedek yok."
+          }
+        }
+      }
+    },
+    "En fazla 50 profil oluşturabilirsin.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You can create up to 50 profiles."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En fazla 50 profil oluşturabilirsin."
+          }
+        }
+      }
+    },
+    "Bir profilde en fazla 30 eylem olabilir.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A profile can contain up to 30 actions."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bir profilde en fazla 30 eylem olabilir."
+          }
+        }
+      }
+    },
+    "Profil adı boş olamaz.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile name cannot be empty."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil adı boş olamaz."
+          }
+        }
+      }
+    },
+    "Profil adı en fazla 60 karakter olabilir.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile name can contain up to 60 characters."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil adı en fazla 60 karakter olabilir."
+          }
+        }
+      }
+    },
+    "Bu isimde başka bir profil var.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Another profile has this name."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu isimde başka bir profil var."
+          }
+        }
+      }
+    },
+    "Eylem etiketi boş olmalı veya en fazla 80 karakter içermeli.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The action label must be empty or contain up to 80 characters."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eylem etiketi boş olmalı veya en fazla 80 karakter içermeli."
+          }
+        }
+      }
+    },
+    "Uygulamayı yeniden seç.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select the application again."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uygulamayı yeniden seç."
+          }
+        }
+      }
+    },
+    "Klasörü yeniden seç.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select the folder again."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klasörü yeniden seç."
+          }
+        }
+      }
+    },
+    "Kısayolda en az Command, Control veya Option kullan.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use at least Command, Control, or Option in the shortcut."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kısayolda en az Command, Control veya Option kullan."
+          }
+        }
+      }
+    },
+    "Bu kısayol başka bir profile atanmış.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This shortcut is assigned to another profile."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu kısayol başka bir profile atanmış."
+          }
+        }
+      }
+    },
+    "Bu kısayol macOS tarafından kullanılıyor. Başka bir kısayol seç.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS uses this shortcut. Choose another shortcut."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu kısayol macOS tarafından kullanılıyor. Başka bir kısayol seç."
+          }
+        }
+      }
+    },
+    "İstek macOS tarafından kabul edildi.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The request was accepted by macOS."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İstek macOS tarafından kabul edildi."
+          }
+        }
+      }
+    },
+    "Sonuç zamanında alınamadı; kaynak yine de açılmış olabilir.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The result did not arrive in time; the resource may still have opened."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sonuç zamanında alınamadı; kaynak yine de açılmış olabilir."
+          }
+        }
+      }
+    },
+    "Kullanıcı iptal etti; daha önce açılan kaynaklar açık kalır.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelled by the user; resources already opened stay open."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kullanıcı iptal etti; daha önce açılan kaynaklar açık kalır."
+          }
+        }
+      }
+    },
+    "Devre dışı olduğu için atlandı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skipped because it is disabled."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Devre dışı olduğu için atlandı."
+          }
+        }
+      }
+    },
+    "Hata politikası çalıştırmayı durdurduğu için atlandı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skipped because the failure policy stopped the run."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hata politikası çalıştırmayı durdurduğu için atlandı."
+          }
+        }
+      }
+    },
+    "Ön kontrolde başka bir kaynak başarısız olduğu için atlandı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skipped because another resource failed preflight."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ön kontrolde başka bir kaynak başarısız olduğu için atlandı."
+          }
+        }
+      }
+    },
+    "Bekliyor.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waiting."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bekliyor."
+          }
+        }
+      }
+    },
+    "Açma isteği gönderiliyor.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sending open request."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Açma isteği gönderiliyor."
+          }
+        }
+      }
+    },
+    "Bu uygulama bulunamadı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This application was not found."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu uygulama bulunamadı."
+          }
+        }
+      }
+    },
+    "Klasör açılamadı. Taşınmış veya erişim kısıtlanmış olabilir.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The folder could not be opened. It may have moved or access may be restricted."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klasör açılamadı. Taşınmış veya erişim kısıtlanmış olabilir."
+          }
+        }
+      }
+    },
+    "Web adresi geçersiz.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The web address is invalid."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Web adresi geçersiz."
+          }
+        }
+      }
+    },
+    "macOS açma isteğini reddetti.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS rejected the open request."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS açma isteğini reddetti."
+          }
+        }
+      }
+    },
+    "Açma isteğinin sonucu zamanında alınamadı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The open request did not complete in time."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Açma isteğinin sonucu zamanında alınamadı."
+          }
+        }
+      }
+    },
+    "Kullanıcı iptal etti.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelled by the user."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kullanıcı iptal etti."
+          }
+        }
+      }
+    },
+    "Profil deposu kullanılamıyor.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile storage is unavailable."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil deposu kullanılamıyor."
+          }
+        }
+      }
+    },
+    "Profil geçersiz.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The profile is invalid."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil geçersiz."
+          }
+        }
+      }
+    },
+    "Profil deposu açılamadı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile storage could not be opened."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil deposu açılamadı."
+          }
+        }
+      }
+    },
+    "Uygulama Ekle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Application"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uygulama Ekle"
+          }
+        }
+      }
+    },
+    "Klasör referansı oluşturulamadı. Başka bir klasör seç.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The folder reference could not be created. Choose another folder."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klasör referansı oluşturulamadı. Başka bir klasör seç."
+          }
+        }
+      }
+    },
+    "Çalışan profil bitene kadar silinemez.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The active profile cannot be deleted until it finishes."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çalışan profil bitene kadar silinemez."
+          }
+        }
+      }
+    },
+    "“%@” silinsin mi?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete “%@”?"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@” silinsin mi?"
+          }
+        }
+      }
+    },
+    "Bu işlem yalnız Launchestra profil kaydını siler. Uygulama ve klasörler silinmez.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This only deletes the Launchestra profile. Apps and folders are not deleted."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu işlem yalnız Launchestra profil kaydını siler. Uygulama ve klasörler silinmez."
+          }
+        }
+      }
+    },
+    "Web": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Web"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Web"
+          }
+        }
+      }
+    },
+    "Web adresi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Web address"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Web adresi"
+          }
+        }
+      }
+    },
+    "Profil doğrulanamadı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The profile could not be validated."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profil doğrulanamadı."
+          }
+        }
+      }
+    },
+    "Değişiklikler kaydedilemedi. Taslağın korunuyor.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Changes could not be saved. Your draft is preserved."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Değişiklikler kaydedilemedi. Taslağın korunuyor."
+          }
+        }
+      }
+    },
+    "Değişiklik kaydedilemedi. Mevcut veriler korundu.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The change could not be saved. Existing data was preserved."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Değişiklik kaydedilemedi. Mevcut veriler korundu."
+          }
+        }
+      }
+    },
+    "Kısayol kaydedilemedi. Önceki kısayol etkin kalıyor.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The shortcut could not be saved. The previous shortcut remains active."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kısayol kaydedilemedi. Önceki kısayol etkin kalıyor."
+          }
+        }
+      }
+    },
+    "Kısayol etkinleştirilemedi.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The shortcut could not be activated."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kısayol etkinleştirilemedi."
+          }
+        }
+      }
+    },
+    "%d açma isteği kabul edildi.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d open request was accepted."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d açma isteği kabul edildi."
+          }
+        }
+      }
+    },
+    "%d istek kabul edildi; bazı adımlar başarısız.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d request was accepted; some steps failed."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d istek kabul edildi; bazı adımlar başarısız."
+          }
+        }
+      }
+    },
+    "Kalan adımlar iptal edildi.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remaining steps were cancelled."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kalan adımlar iptal edildi."
+          }
+        }
+      }
+    },
+    "Çalıştırma zaman aşımına uğradı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The run timed out."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çalıştırma zaman aşımına uğradı."
+          }
+        }
+      }
+    },
+    "Bu profil dosyası daha yeni veya desteklenmeyen şema sürümünü kullanıyor (v%d). Uyumlu Launchestra sürümünü kullanabilir ya da özgün veriyi koruyarak yeni yapılandırma oluşturabilirsin.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This profile file uses a newer or unsupported schema version (v%d). Use a compatible Launchestra version or preserve the original data and create a new configuration."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu profil dosyası daha yeni veya desteklenmeyen şema sürümünü kullanıyor (v%d). Uyumlu Launchestra sürümünü kullanabilir ya da özgün veriyi koruyarak yeni yapılandırma oluşturabilirsin."
+          }
+        }
+      }
+    },
+    "%d açma isteğinin tümü kabul edildi.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All %d open requests were accepted."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d açma isteğinin tümü kabul edildi."
+          }
+        }
+      }
+    },
+    "%d açma isteği kabul edildi; bazı adımlar tamamlanmadı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d open request was accepted; some steps did not complete."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d açma isteği kabul edildi; bazı adımlar tamamlanmadı."
+          }
+        }
+      }
+    },
+    "Hiçbir açma isteği kabul edilmedi.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No open requests were accepted."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiçbir açma isteği kabul edilmedi."
+          }
+        }
+      }
+    },
+    "Çalıştırma iptal edildi; açılan kaynaklar açık kaldı.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The run was cancelled; resources already opened remain open."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çalıştırma iptal edildi; açılan kaynaklar açık kaldı."
+          }
+        }
+      }
+    },
+    "Toplam çalışma süresi doldu; bazı kaynaklar yine de açılmış olabilir.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The total run time expired; some resources may still have opened."
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toplam çalışma süresi doldu; bazı kaynaklar yine de açılmış olabilir."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
