@@ -1,74 +1,74 @@
 # Launchestra
 
-Launchestra, MacBook'taki çalışma ortamlarını tek seçimle hazırlayan açık kaynak bir macOS menü çubuğu uygulamasıdır. Bir profile uygulamalar, klasörler ve web adresleri eklersin; Launchestra bunları kayıt sırasıyla açar ve her isteğin sonucunu gösterir.
+Launchestra is an open source macOS menu bar app that prepares your MacBook workspace with one click. Add applications, folders, and web addresses to a profile, then Launchestra opens them in order and reports the result of every request.
 
-![Launchestra Türkçe ilk açılış ekranı](docs/images/launchestra-onboarding-tr.png)
+![Launchestra welcome screen](docs/images/launchestra-onboarding-en-dark.png)
 
-## Özellikler
+## Features
 
-- Birden fazla çalışma profili oluşturma, çoğaltma, sıralama ve silme
-- Profile uygulama, klasör ve HTTP(S) adresi ekleme
-- Profili menü çubuğundan çalıştırma
-- Her profil için isteğe bağlı global klavye kısayolu
-- Bir anda tek profil çalıştırma, ilerleme gösterme ve kalan adımları iptal etme
-- Kabul, kısmi başarı, hata, zaman aşımı ve iptal sonuçlarını ayrı gösterme
-- İsteğe bağlı olarak macOS oturumu açıldığında Launchestra'yı başlatma
-- Türkçe ve İngilizce arayüz; açık ve koyu görünüm desteği
-- Sürümlü yerel JSON depolama, doğrulanmış yedek ve açık veri kurtarma akışı
-- Hesap, sunucu, telemetri ve uygulama içi yapay zekâ bağımlılığı olmadan yerel çalışma
+- Create, duplicate, reorder, and delete workspace profiles
+- Add applications, folders, and HTTP(S) addresses to a profile
+- Run profiles from the menu bar
+- Assign an optional global keyboard shortcut to each profile
+- Show progress and cancel actions that have not started yet
+- Distinguish accepted, partial, failed, timed out, and cancelled runs
+- Start Launchestra at login without automatically running a profile
+- Use the app in English or Turkish, with light and dark appearance support
+- Store versioned JSON locally, maintain a verified backup, and provide an explicit recovery flow
+- Work without an account, server, telemetry, or an in-app AI service
 
-Launchestra yalnızca macOS'un açma API'lerine istek gönderir. Bir isteğin kabul edilmesi, hedef uygulamanın veya web sayfasının tamamen hazır olduğu anlamına gelmez.
+Launchestra sends open requests through macOS APIs. An accepted request means macOS accepted it; it does not prove that the target application or web page is fully ready.
 
-## Ekran görüntüleri
+## Screenshots
 
-| Profiller | Profil düzenleyici |
+| Profiles | Profile editor |
 | --- | --- |
-| <img src="docs/images/launchestra-profiles-tr.png" alt="Launchestra profil listesi" width="700"> | <img src="docs/images/launchestra-profile-editor-tr.png" alt="Launchestra profil düzenleyici" width="700"> |
+| <img src="docs/images/launchestra-profiles-en.png" alt="Launchestra profile list" width="700"> | <img src="docs/images/launchestra-profile-editor-en.png" alt="Launchestra profile editor" width="700"> |
 
-| Çalıştırma sonucu | Koyu görünüm ve İngilizce |
+| Run result | Welcome screen in dark mode |
 | --- | --- |
-| <img src="docs/images/launchestra-run-result-tr.png" alt="Launchestra çalıştırma sonucu" width="700"> | <img src="docs/images/launchestra-onboarding-en-dark.png" alt="Launchestra İngilizce koyu görünüm" width="700"> |
+| <img src="docs/images/launchestra-run-result-en.png" alt="Launchestra run result" width="700"> | <img src="docs/images/launchestra-onboarding-en-dark.png" alt="Launchestra welcome screen in dark mode" width="700"> |
 
-Görseller UI testinin sentetik profiliyle üretilmiştir. Gerçek kullanıcı klasörü, bookmark verisi veya URL sorgu değeri içermez.
+The screenshots are generated with a synthetic profile in a UI test. They do not contain a real user directory, bookmark data, or URL query values.
 
-## Sistem gereksinimleri
+## Requirements
 
-Uygulamayı çalıştırmak için:
+To run the app:
 
-- Apple Silicon işlemcili bir Mac
-- macOS 14 Sonoma veya üstü
+- An Apple Silicon Mac
+- macOS 14 Sonoma or later
 
-Kaynak koddan derlemek için ayrıca:
+To build from source:
 
 - Xcode 26.1.1
-- Swift 6 araç zinciri
+- The Swift 6 toolchain
 - Git
-- KeyboardShortcuts bağımlılığını ilk derlemede indirmek için internet bağlantısı
+- An internet connection during the first build so Xcode can fetch KeyboardShortcuts
 
-Minimum hedef macOS 14'tür. Mevcut fiziksel doğrulama Mac16,7 üzerinde macOS 26.6.2 ile yapılmıştır; macOS 14 fiziksel cihaz koşusu henüz beklemektedir. Ayrıntılar [performans ve cihaz matrisi](docs/18-PERFORMANCE-AND-DEVICE-MATRIX.md) içindedir.
+The deployment target is macOS 14. Physical validation has been performed on a Mac16,7 running macOS 26.6.2. A physical macOS 14 run is still pending; see the [performance and device matrix](docs/18-PERFORMANCE-AND-DEVICE-MATRIX.md).
 
-## Kurulum
+## Installation
 
-Şu anda Developer ID ile imzalanmış ve notarize edilmiş herkese açık bir paket bulunmuyor. Bu nedenle mevcut güvenilir kurulum yöntemi kaynak koddan derlemedir.
+A public Developer ID signed and notarized package is not available yet. Building from source is currently the trusted installation method.
 
-### 1. Depoyu indir
+### 1. Clone the repository
 
-Terminal'i aç ve şu komutları çalıştır:
+Open Terminal and run:
 
 ```bash
 git clone https://github.com/furkankoc18/Launchestra.git
 cd Launchestra
 ```
 
-Belirli beta kaynak kodunu kullanmak istersen:
+To build the exact beta source revision:
 
 ```bash
 git checkout v0.1.0-beta.1
 ```
 
-Ana daldaki en güncel geliştirmeyi kullanmak için bu adımı atlayabilirsin.
+Skip the checkout command if you want the latest development version from `main`.
 
-### 2. Uygulamayı derle
+### 2. Build the app
 
 ```bash
 DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer \
@@ -80,23 +80,23 @@ DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer \
   build
 ```
 
-İlk derleme KeyboardShortcuts 3.0.1 paketini indirir. Başarılı olduğunda uygulama şu konumda oluşur:
+The first build downloads the pinned KeyboardShortcuts 3.0.1 package. After a successful build, the app is available at:
 
 ```text
 .build/xcode/Build/Products/Debug/Launchestra.app
 ```
 
-### 3. Launchestra'yı aç
+### 3. Open Launchestra
 
 ```bash
 open .build/xcode/Build/Products/Debug/Launchestra.app
 ```
 
-Launchestra bir menü çubuğu uygulamasıdır. Dock'ta sürekli bir uygulama simgesi görünmez; ekranın üstündeki menü çubuğunda Launchestra simgesini ara. İlk açılışta yönetim penceresi de gösterilir.
+Launchestra is a menu bar app. It does not keep an icon in the Dock. Look for the Launchestra icon in the macOS menu bar at the top of the screen. The management window also appears on first launch.
 
-### 4. İsteğe bağlı olarak kullanıcı Applications klasörüne kur
+### 4. Optionally copy it to your user Applications folder
 
-Her derlemeden sonra aynı yolu kullanmak istersen uygulamayı kullanıcı hesabındaki Applications klasörüne kopyalayabilirsin:
+If you want a stable path for the locally built app:
 
 ```bash
 mkdir -p "$HOME/Applications"
@@ -105,90 +105,90 @@ ditto .build/xcode/Build/Products/Debug/Launchestra.app \
 open "$HOME/Applications/Launchestra.app"
 ```
 
-Yeni sürüm derlediğinde kopyalama komutunu yeniden çalıştır. Uygulama açıksa önce menüden **Launchestra'dan Çık** seçeneğini kullan.
+Repeat the copy command after building a new version. If Launchestra is already running, select **Quit Launchestra** from its menu first.
 
-## Xcode arayüzüyle çalıştırma
+## Run from Xcode
 
-Terminal kullanmadan geliştirme yapmak için:
+You can also build and run the app entirely from Xcode:
 
-1. `DeskMode.xcodeproj` dosyasını Xcode ile aç.
-2. Üst araç çubuğunda `DeskMode` scheme'ini seç.
-3. Çalıştırma hedefini **My Mac** yap.
-4. **Product → Run** seçeneğini kullan veya `⌘R` tuşlarına bas.
-5. Uygulama açıldıktan sonra macOS menü çubuğundaki Launchestra simgesini kontrol et.
+1. Open `DeskMode.xcodeproj` in Xcode.
+2. Select the `DeskMode` scheme in the toolbar.
+3. Choose **My Mac** as the run destination.
+4. Select **Product → Run** or press `⌘R`.
+5. After launch, look for the Launchestra icon in the macOS menu bar.
 
-Proje içindeki hedef ve scheme adı geriye dönük uyumluluk için `DeskMode`, üretilen uygulama ve binary adı `Launchestra` olarak kalır.
+The internal Xcode target and scheme retain the `DeskMode` name for compatibility. The generated application and executable are named `Launchestra`.
 
-## İlk kullanım
+## Getting started
 
-### Profil oluşturma
+### Create a profile
 
-1. İlk açılış ekranında **İlk Profilini Oluştur** düğmesine bas. Rehberi geçtiysen **Profiller → Oluştur** yolunu kullan.
-2. Örneğin `Geliştirme`, `Tasarım` veya `Sabah Rutini` gibi bir profil adı gir.
-3. Hata politikasını seç:
-   - **Devam et:** Bir eylem başarısız olsa bile sonraki eylemleri dener.
-   - **İlk hatada dur:** İlk başarısız eylemden sonra kalan adımları çalıştırmaz.
-4. İstersen bu profile özel bir global kısayol kaydet.
-5. Eylemlerini ekle ve **Kaydet** düğmesine bas.
+1. Select **Create Your First Profile** on the welcome screen. If you skipped the guide, open **Profiles** and select **Create**.
+2. Enter a name such as `Development`, `Design`, or `Morning Routine`.
+3. Choose a failure policy:
+   - **Continue:** Attempt the remaining actions after one action fails.
+   - **Stop on first failure:** Do not start the remaining actions after the first failure.
+4. Optionally record a global shortcut for the profile.
+5. Add actions and select **Save**.
 
-### Eylem ekleme
+### Add actions
 
-Profil düzenleyicide üç eylem türü vardır:
+The profile editor supports three action types:
 
-- **Uygulama Ekle:** Mac'teki bir `.app` paketi seçer.
-- **Klasör Ekle:** Finder'da açılacak klasörü seçer. Launchestra klasörü taşınsa bile bulabilmek için macOS bookmark verisini kullanır.
-- **URL Ekle:** Yalnızca `http://` veya `https://` ile başlayan adresleri kabul eder.
+- **Add Application:** Select an installed `.app` bundle.
+- **Add Folder:** Select a folder to open in Finder. Launchestra uses macOS bookmark data so it can resolve the folder after a move when possible.
+- **Add URL:** Enter an address beginning with `http://` or `https://`.
 
-Eylemler kayıt sırasıyla çalışır. **Yukarı** ve **Aşağı** düğmeleriyle sıralamayı değiştirebilir, anahtarı kapatarak bir eylemi silmeden devre dışı bırakabilirsin.
+Actions run in their saved order. Use **Up** and **Down** to reorder them. Turn off an action to keep it in the profile without running it.
 
-### Profili çalıştırma
+### Run a profile
 
-Profiller ekranındaki **Çalıştır** düğmesine veya menü çubuğundaki profil adına bas. Global kısayol atadıysan Launchestra arka plandayken de o kısayolu kullanabilirsin.
+Select **Run** on the Profiles screen, choose the profile from the menu bar, or use its assigned global shortcut while Launchestra is in the background.
 
-Çalıştırma sırasında:
+During a run:
 
-- Aynı anda ikinci bir profil başlatılamaz.
-- **İptal**, henüz başlamamış eylemleri durdurur.
-- Daha önce açılmış uygulama, klasör veya sekmeler geri kapatılmaz.
-- Başarısız adımlar otomatik olarak tekrar denenmez.
+- A second profile cannot start at the same time.
+- **Cancel** prevents actions that have not started yet from running.
+- Applications, folders, or browser tabs that already opened are not closed.
+- Failed actions are not retried automatically.
 
-Sonuç ekranı her eylemi kabul edildi, başarısız, zaman aşımına uğradı veya iptal edildi şeklinde gösterir. URL sonuçlarında query ve fragment gibi hassas kısımlar gösterilmez.
+The result screen marks each action as accepted, failed, timed out, or cancelled. URL results omit sensitive query and fragment values.
 
-## Ayarlar ve izinler
+## Settings and permissions
 
-**Girişte başlat** açılırsa Launchestra macOS oturumu açıldığında çalışır. Bu seçenek herhangi bir profili kendiliğinden başlatmaz.
+When **Launch at Login** is enabled, Launchestra starts after the macOS user session begins. It does not automatically run any profile.
 
-MVP sürümü Accessibility, ekran kaydı veya mikrofon izni istemez. Uygulama ve klasör seçimi standart macOS seçim panelleriyle yapılır. Bir klasör artık erişilebilir değilse Launchestra sessizce başka bir yola geçmez; kullanıcıya hata veya kurtarma seçeneği gösterir.
+Version 0.1 does not request Accessibility, Screen Recording, or microphone permission. Application and folder selection use standard macOS selection panels. If a folder becomes unavailable, Launchestra reports the error or offers recovery instead of silently opening another path.
 
-## Veri konumu ve yedekleme
+## Data and backups
 
-Profiller bu Mac'te aşağıdaki dizinde tutulur:
+Profiles are stored locally at:
 
 ```text
 ~/Library/Application Support/DeskMode/
 ```
 
-İç dizin adının `DeskMode` olarak kalması önceki geliştirme kopyalarıyla veri uyumluluğunu korur. Temel dosyalar:
+The internal `DeskMode` directory name is retained for compatibility with earlier development builds. The main files are:
 
-- `profiles.json`: Etkin profil verisi
-- `profiles.backup.json`: Son doğrulanmış yedek
-- `profiles.recovery-*`: Kullanıcı onayıyla yapılan kurtarma öncesi koruma kopyaları
+- `profiles.json`: Active profile data
+- `profiles.backup.json`: Last verified backup
+- `profiles.recovery-*`: Safety copies created before a user-approved recovery operation
 
-Profil dosyası uygulama ve klasör tanımları ile URL'leri içerebilir. Hata bildirirken gerçek yolları, URL query değerlerini ve bookmark verisini paylaşma. Ayrıntılı veri davranışı [PRIVACY.md](PRIVACY.md) ve [veri modeli](docs/06-DATA-MODEL.md) içinde açıklanır.
+The profile file may contain application and folder references as well as URLs. Remove real paths, URL query values, and bookmark data before sharing a bug report. See [PRIVACY.md](PRIVACY.md) and the [data model](docs/06-DATA-MODEL.md) for the complete storage contract.
 
-## Sık karşılaşılan sorunlar
+## Troubleshooting
 
-### Uygulama açıldı ama pencere görünmüyor
+### Launchestra opened, but no window is visible
 
-Launchestra menü çubuğunda çalışır. Üst menü çubuğundaki Launchestra simgesine basıp **Profilleri Yönet…** veya **Ayarlar…** seçeneğini aç.
+Launchestra continues running in the menu bar. Select its menu bar icon, then choose **Manage Profiles…** or **Settings…**.
 
-### `xcode-select` veya SDK hatası alıyorum
+### Xcode reports an SDK or `xcode-select` error
 
-Komutlarda `DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer` öneki bulunduğundan emin ol. Xcode farklı bir klasöre kurulduysa yolu kendi kurulumuna göre değiştir.
+Make sure the command starts with `DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer`. If Xcode is installed elsewhere, update that path to match your installation.
 
-### Paket bağımlılığı indirilemiyor
+### Package dependency resolution fails
 
-İnternet bağlantısını kontrol et ve şu komutla paket çözümlemeyi yeniden çalıştır:
+Check your internet connection and resolve packages again:
 
 ```bash
 DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer \
@@ -197,25 +197,25 @@ DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer \
   -scheme DeskMode
 ```
 
-### Bir uygulama veya klasör açılmıyor
+### An application or folder does not open
 
-Profil düzenleyicide hedefi yeniden seçip kaydet. Klasör taşınmış, disk çıkarılmış veya macOS erişimi reddetmiş olabilir. Son çalıştırma ekranındaki hata kodu sorunun hangi adımda olduğunu gösterir.
+Select the target again in the profile editor and save the profile. The application may have moved, the disk may have been disconnected, or macOS may have denied access. The last run screen identifies the action that failed.
 
-### Girişte başlatma çalışmıyor
+### Launch at Login does not work
 
-**Ayarlar → Girişte başlat** seçeneğini kapatıp yeniden aç. macOS **Sistem Ayarları → Genel → Giriş Öğeleri ve Uzantılar** ekranında Launchestra'nın izinli olduğunu doğrula.
+Turn **Launch at Login** off and on again. Open **System Settings → General → Login Items & Extensions** and confirm that Launchestra is allowed.
 
-## Derleme ve test
+## Build and test
 
-Yerel CI eşini tek komutla çalıştır:
+Run the local CI equivalent:
 
 ```bash
 DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer scripts/verify.sh
 ```
 
-Bu betik KeyboardShortcuts 3.0.1 kilitli bağımlılığıyla paket testlerini warnings-as-errors modunda çalıştırır ve unsigned arm64 uygulamayı derler.
+The script runs the Swift package tests with warnings treated as errors, using the pinned KeyboardShortcuts 3.0.1 dependency, and builds the unsigned arm64 app.
 
-UI testlerini çalıştırmak için:
+Run the UI tests with:
 
 ```bash
 DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer \
@@ -228,7 +228,7 @@ DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer \
   test
 ```
 
-Dokümantasyon ekran görüntülerini oluşturan tek testi çalıştırmak için:
+Run only the documentation screenshot test with:
 
 ```bash
 DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer \
@@ -242,38 +242,38 @@ DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer \
   test
 ```
 
-CI tanımı [.github/workflows/ci.yml](.github/workflows/ci.yml), geliştirme ortamının ayrıntıları [docs/10-DEVELOPMENT.md](docs/10-DEVELOPMENT.md) içindedir.
+The CI definition is in [.github/workflows/ci.yml](.github/workflows/ci.yml). Development environment details are in [docs/10-DEVELOPMENT.md](docs/10-DEVELOPMENT.md).
 
-## Mimari
+## Architecture
 
-- `App/`: SwiftUI/AppKit uygulama kabuğu, menü çubuğu arayüzü ve yerelleştirme
-- `Packages/DeskModeKit/Sources/DeskModeCore/`: AppKit'ten bağımsız veri modeli, doğrulama ve çalıştırma sözleşmeleri
-- `Packages/DeskModeKit/Sources/DeskModePlatform/`: Repository actor, bookmark, NSWorkspace, kısayol, login item ve tanılama adaptörleri
-- `Tests/DeskModeUITests/`: İmzalı uygulama üzerinden UI ve uçtan uca regresyonlar
-- `docs/`: Ürün, UX, veri, mimari, test, güvenlik ve yayın belgeleri
-- `TODO.md` ve `STATUS.md`: Kanıtlanmış ilerleme ve açık dış bağımlılıklar
+- `App/`: SwiftUI and AppKit application shell, menu bar UI, and localization
+- `Packages/DeskModeKit/Sources/DeskModeCore/`: AppKit-independent data model, validation, and execution contracts
+- `Packages/DeskModeKit/Sources/DeskModePlatform/`: Repository actor, bookmark, NSWorkspace, shortcut, login item, and diagnostics adapters
+- `Tests/DeskModeUITests/`: Signed application UI and end-to-end regression tests
+- `docs/`: Product, UX, data, architecture, test, security, and release documents
+- `TODO.md` and `STATUS.md`: Verified progress and remaining external dependencies
 
-Dosya yazımı tek repository actor üzerinden yürür. UI MainActor üzerindedir. Çalıştırma motoru bir anda yalnız bir run kabul eder ve AppKit bağımlılıklarını domain kodundan ayrı tutar. Ayrıntılı diyagram ve kararlar [mimari belgesinde](docs/05-ARCHITECTURE.md) yer alır.
+All file writes pass through one repository actor. The UI runs on MainActor. The execution engine accepts only one active run and keeps AppKit dependencies outside the domain layer. See the [architecture document](docs/05-ARCHITECTURE.md) for diagrams and design decisions.
 
-## Mevcut sınırlar
+## Current limitations
 
-Launchestra v0.1 şu özellikleri içermez:
+Launchestra 0.1 does not provide:
 
-- Shell veya terminal komutu çalıştırma
-- AppleScript
-- Pencere veya ekran yerleşimi
-- Ses cihazı değiştirme
-- Monitör, konum veya zamana göre otomatik profil tetikleme
-- Bulut eşitleme veya hesap sistemi
+- Shell or terminal command execution
+- AppleScript execution
+- Window or display arrangement
+- Audio device switching
+- Automatic profile triggers based on display, location, or time
+- Cloud sync or user accounts
 
-Bu sınırlar [PRD](docs/03-PRD.md) ve [yol haritasında](docs/11-ROADMAP.md) izlenir.
+These boundaries are tracked in the [PRD](docs/03-PRD.md) and [roadmap](docs/11-ROADMAP.md).
 
-## Katkı, güvenlik ve lisans
+## Contributing, security, and license
 
-Katkı göndermeden önce [CONTRIBUTING.md](CONTRIBUTING.md), ürün kapsamı için [PRD](docs/03-PRD.md) ve görevler için [TODO.md](TODO.md) dosyasını oku. Güvenlik açığını public issue içinde ayrıntılandırmadan [SECURITY.md](SECURITY.md) yönergesini izle.
+Before contributing, read [CONTRIBUTING.md](CONTRIBUTING.md), the [PRD](docs/03-PRD.md), and [TODO.md](TODO.md). Follow [SECURITY.md](SECURITY.md) before reporting a vulnerability in a public issue.
 
-Kaynak kod [MIT Lisansı](LICENSE) ile lisanslanır. KeyboardShortcuts bildirimi [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) içindedir.
+The source code is available under the [MIT License](LICENSE). The KeyboardShortcuts notice is in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-## Yayın durumu
+## Release status
 
-Sürüm `0.1.0`, build `1` ve kaynak etiketi `v0.1.0-beta.1` olarak hazırlanmıştır. Developer ID Application sertifikası ve notarization tamamlanmadığı için herkese açık indirilebilir paketin resmî beta olarak sunulması beklemektedir. Güncel kanıt ve açık kapılar [STATUS.md](STATUS.md) dosyasında tutulur.
+Version `0.1.0`, build `1`, and the source tag `v0.1.0-beta.1` are prepared. A public downloadable beta is pending a Developer ID Application certificate and Apple notarization. Current evidence and remaining release gates are recorded in [STATUS.md](STATUS.md).

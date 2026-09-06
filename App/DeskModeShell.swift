@@ -1478,7 +1478,8 @@ private struct ProfilesOverview: View {
                             Button { model.requestDestination(.profile(profile.id)) } label: {
                                 VStack(alignment: .leading) {
                                     Text(profile.name).font(.headline)
-                                    Text("\(profile.actions.count) eylem").foregroundStyle(.secondary)
+                                    Text(String(format: localized("%d eylem"), profile.actions.count))
+                                        .foregroundStyle(.secondary)
                                 }
                             }
                             .buttonStyle(.plain)
@@ -1488,7 +1489,9 @@ private struct ProfilesOverview: View {
                                 model.run(profileID: profile.id)
                             }
                             .disabled(!model.canRun(profile))
-                            .accessibilityLabel("\(profile.name) profilini çalıştır")
+                            .accessibilityLabel(
+                                String(format: localized("%@ profilini çalıştır"), profile.name)
+                            )
                             .accessibilityIdentifier("run-profile-button")
                         }
                     }

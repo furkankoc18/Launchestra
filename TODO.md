@@ -214,7 +214,7 @@ Her görev için ortak teslim koşulu: ilgili kontrollerin gerçek sonucu, STATU
 - **Çıktı:** macOS CI, seçili Xcode kaydı, paket testleri/app build, artifact sonuçları.
 - **Kabul:** Fork PR secrets alamaz; gerçek bağımlılıklar kilitli; gereken workflow izinleri sınırlı. CI'da mümkün olmayan GUI işleri manuel release kontrolünde kalır.
 - **Doğrulama:** Yerel eş komutlar; dış CI çalışması erişim varsa gerçek run bağlantısıyla, yoksa pending.
-- **Kanıt (2026-09-06):** `.github/workflows/ci.yml`, `macos-15` üzerinde tam Xcode 26.1.1 kontrolü, kilitli dependency ile warnings-as-errors paket testi, unsigned arm64 app build'i ve 14 günlük log artifact'ı ekledi. Fork/PR işi yalnız `contents: read` kullanır, checkout credential'ını saklamaz ve signing secret içermez. GUI suite yalnız manuel opt-in'dir. `scripts/verify.sh` yerel eşinde 71 test ve app build geçti. Uzak depo olmadığı için dış Actions run URL'si pending olarak doğru biçimde bırakıldı.
+- **Kanıt (2026-09-07):** `.github/workflows/ci.yml`, `macos-15` üzerinde tam Xcode 26.1.1 kontrolü, kilitli dependency ile warnings-as-errors paket testi, unsigned arm64 app build'i ve 14 günlük log artifact'ı ekledi. Fork/PR işi yalnız `contents: read` kullanır, checkout credential'ını saklamaz ve signing secret içermez. GUI suite yalnız manuel opt-in'dir. `scripts/verify.sh` yerel eşinde 71 test ve app build geçti. İlk public `main` ve tag push'larının iki gerçek [GitHub Actions koşusu](https://github.com/furkankoc18/Launchestra/actions) da başarıyla tamamlandı.
 
 ### DM-026 — Performans ve cihaz matrisi
 
@@ -230,7 +230,7 @@ Her görev için ortak teslim koşulu: ilgili kontrollerin gerçek sonucu, STATU
 - **Çıktı:** Gerçek kurulum/derleme README'si, kullanıcı senaryoları, doğru CHANGELOG, lisans ve katkı metinleri.
 - **Kabul:** MIT seçimi/telif sahibi kesinleştirilir ve standart LICENSE eklenir. Depo/güvenlik kanalı gerçek değerlerle tamamlanır. Çalışmayan gelecek özellik mevcut gibi tanıtılmaz; kişisel veri içermeyen ekran görüntüleri.
 - **Doğrulama:** Link/komut kontrolü; temiz checkout talimatları; SECURITY/PRIVACY gerçek kodla karşılaştırma.
-- **İlerleme/engel (2026-09-06):** MIT `LICENSE` (`furkankoc`), KeyboardShortcuts 3.0.1 lisans bildirimi, gerçek özellik/sınır/derleme README'si, katkı/gizlilik/güvenlik ve beta notları ile kırpılmış sentetik TR/EN ekran görüntüleri eklendi. Public depo olmadığı için gerçek repo URL'si ve GitHub Private Vulnerability Reporting kanalı yoktur; sahte değer yazılmadı ve görev bu kabul kapısı nedeniyle açıktır.
+- **İlerleme/engel (2026-09-07):** MIT `LICENSE` (`furkankoc`), KeyboardShortcuts 3.0.1 lisans bildirimi ve katkı/gizlilik/güvenlik/beta metinleri eklendi. Public README İngilizce olarak gerçek klon adresi, kaynak kurulum, Xcode, ilk kullanım, izin, veri, sorun giderme, test ve mimari adımlarıyla genişletildi. Onboarding'e ek olarak profil listesi, düzenleyici ve sonuç ekranlarının TR/EN, kişisel veri içermeyen kırpılmış görselleri yeniden üretilebilir UI testiyle üretildi; son İngilizce koşu 1/1 geçti. Kaynak kod ve beta etiketi [gerçek depoya](https://github.com/furkankoc18/Launchestra) gönderildi. GitHub Private Vulnerability Reporting henüz etkin olmadığı için görev bu son kabul kapısıyla açıktır.
 
 ### DM-028 — İmzalama ve yerel beta paketi
 
@@ -248,6 +248,7 @@ Her görev için ortak teslim koşulu: ilgili kontrollerin gerçek sonucu, STATU
 - **Çıktı:** Gerçek repository/release URL, v0.1.0 sürümü, paket/checksum ve bilinen sınırlar.
 - **Kabul:** Hazırlanmış paketin aynısı yayımlanır. Onay verilmemiş dış yazı/push yapılmaz. İndirme ve temiz kurulum yayın sonrası doğrulanır; hata varsa kullanıcıya açık release notu.
 - **Doğrulama:** Gerçek release kaydı ve paket checksum eşleşmesi.
+- **İlerleme (2026-09-07):** `main` ve annotated `v0.1.0-beta.1` etiketi `https://github.com/furkankoc18/Launchestra` adresine gönderildi. Developer ID/notarization eksik olduğu için ZIP/DMG GitHub Release olarak yayımlanmadı; gerçek Release URL'si ve yayın sonrası temiz indirme testi açıktır.
 
 ### DM-030 — Beta geri bildirimi ve v0.2 kararı
 

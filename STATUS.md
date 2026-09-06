@@ -11,7 +11,7 @@ Son güncelleme: 2026-09-07.
 - [x] **Yayın adı ve kimliği:** Kullanıcıya görünen ad `Launchestra`; ürün/binary `Launchestra.app`; kalıcı bundle kimliği `io.github.furkankoc18.Launchestra`; sürüm `0.1.0`, build `1`.
 - [x] **DM-025:** Minimum izinli GitHub Actions workflow'u, kilitli action/dependency sürümleri, paket testleri, arm64 app build'i, log artifact'ı ve yerel `scripts/verify.sh` eşi.
 - [x] **DM-026 performans kısmı:** Mac16,7/macOS 26.6.2 Release 50×30 fixture; 30 ölçüm p95 24,024 ms. Beş dakika idle CPU ortalama %0,0, RSS ortalama 76,598 MiB/max 78,109 MiB.
-- [x] **DM-027 yerel belge kısmı:** MIT LICENSE, KeyboardShortcuts bildirimi, gerçek README/katkı/gizlilik/güvenlik/beta notları, TR/EN kişisel veri içermeyen kırpılmış ekran görüntüleri.
+- [x] **DM-027 depo ve belge kısmı:** MIT LICENSE, KeyboardShortcuts bildirimi, ayrıntılı İngilizce kurulum/kullanım README'si, katkı/gizlilik/güvenlik/beta notları ve TR/EN kişisel veri içermeyen kırpılmış ekran görüntüleri. `main` ile `v0.1.0-beta.1` gerçek GitHub deposuna gönderildi; ilk iki Actions koşusu geçti.
 - [x] **DM-028 yerel paket kısmı:** arm64 Release archive, ad-hoc Hardened Runtime imzası, ZIP/DMG, checksum, içerik ve izole profil diziniyle açılış doğrulaması.
 
 ## Doğrulama özeti
@@ -30,9 +30,9 @@ Son güncelleme: 2026-09-07.
 
 - [ ] **DM-004:** Beş gerçek hedef kullanıcı görüşmesi **0/5**. Ad araştırması ve Launchestra kararı tamam.
 - [ ] **DM-026:** Minimum macOS 14 cihaz/VM, dış disk çıkarma/erişim reddi, İngilizce fiziksel klavye, tam logout/login, gerçek VoiceOver ve Full Keyboard Access koşuları yok.
-- [ ] **DM-027:** Public depo olmadığı için gerçek repository URL'si ve GitHub Private Vulnerability Reporting kanalı yok.
+- [ ] **DM-027:** Repository URL'si artık `https://github.com/furkankoc18/Launchestra`; GitHub Private Vulnerability Reporting henüz etkin değil.
 - [ ] **DM-028:** Keychain'de geçerli signing identity sayısı `0`; Developer ID Application imzası, notarization ve staple yapılamadı.
-- [ ] **DM-029:** Git remote yok; `gh` kurulu/oturum açık değil; public Release URL'si ve yayın sonrası indirme testi yok.
+- [ ] **DM-029:** Public kaynak depo ve beta etiketi var; Developer ID/notarization ve GitHub Release URL'si ile yayın sonrası indirme testi yok.
 - [ ] **DM-030:** DM-029 tamamlanmadan ve gerçek beta kullanıcıları olmadan geri bildirim/v0.2 kararı üretilemez.
 - [ ] **DM-101+ kuyruğu:** ROADMAP gereği DM-030 ölçülmüş geri bildirimi olmadan başlanmaz.
 
@@ -47,15 +47,15 @@ Artifact kaynak commit'i `b09555900d49aec296b5d4b702f9d3e99b693aed`, yerel annot
 
 ## Sonraki iş
 
-Yerelde tamamlanabilen beta hazırlığı bitmiştir. Bir sonraki somut adım public GitHub deposu/güvenlik kanalını kurmak ve Developer ID Application sertifikasıyla aynı kaynak commit'inden imzalı-notarize paketi yeniden üretmektir. Bundan sonra DM-029 beta yayını ve gerçek DM-030 geri bildirim döngüsü yapılabilir.
+Yerelde tamamlanabilen beta hazırlığı ve public kaynak push'u bitmiştir. Bir sonraki somut adım GitHub Private Vulnerability Reporting'i etkinleştirmek ve Developer ID Application sertifikasıyla aynı kaynak commit'inden imzalı-notarize paketi yeniden üretmektir. Bundan sonra DM-029 beta Release ve gerçek DM-030 geri bildirim döngüsü yapılabilir.
 
 ## Oturum devri
 
 ```text
 Tarih: 2026-09-07
-Tamamlanan: DM-025; DM-026 performans; DM-027 yerel OSS belgeleri; DM-028 ad-hoc yerel paket
-Doğrulama: 71 package test, unsigned build, 15 ürün UI testi + sürüm rerun, Release performans/idle, OS smoke, login item, archive/codesign, ZIP/DMG/checksum
+Tamamlanan: DM-025; DM-026 performans; DM-027 repo/OSS belgeleri; DM-028 ad-hoc yerel paket; main ve v0.1.0-beta.1 push
+Doğrulama: 71 package test, unsigned build, 15 ürün UI testi + sürüm rerun, dokümantasyon ekran görüntüsü UI testi 1/1, Release performans/idle, OS smoke, login item, archive/codesign, ZIP/DMG/checksum
 Karar: Launchestra 0.1.0 build 1; io.github.furkankoc18.Launchestra; MIT/furkankoc; Apple Silicon/macOS 14+
-Açık gerçek engel: macOS 14 ve yardımcı teknoloji cihaz matrisi; Developer ID/notarization; public GitHub repo/security channel; beta kullanıcı geri bildirimi
-Sonraki görev: DM-026 dış cihaz matrisi + DM-027/028 dış kimlik kapıları, ardından DM-029
+Açık gerçek engel: macOS 14 ve yardımcı teknoloji cihaz matrisi; Developer ID/notarization; GitHub Private Vulnerability Reporting; beta kullanıcı geri bildirimi
+Sonraki görev: DM-026 dış cihaz matrisi + DM-027 güvenlik kanalı + DM-028 imzalama kapısı, ardından DM-029 Release
 ```

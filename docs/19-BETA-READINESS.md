@@ -41,7 +41,7 @@ ZIP ve DMG açılarak aynı içerik doğrulandı. ZIP içindeki uygulama yeni, i
 
 1. Keychain'de geçerli code-signing identity sayısı `0`; Developer ID Application sertifikası yok.
 2. Developer ID imzası olmadığından Apple notarization gönderimi ve staple yapılamıyor.
-3. Git remote yok ve `gh` CLI kurulu/oturum açık değil; public depo, gerçek güvenlik kanalı ve Release URL'si yok.
+3. Kaynak kod ve `v0.1.0-beta.1` etiketi [GitHub deposuna](https://github.com/furkankoc18/Launchestra) gönderildi. GitHub Private Vulnerability Reporting ve gerçek Release URL'si henüz yok.
 4. Minimum macOS 14 cihaz/VM, dış disk/erişim reddi, gerçek VoiceOver/Full Keyboard Access matrisi açık.
 5. DM-004 görüşmeleri 0/5; DM-030 için yayımlanmış beta ve gerçek kullanıcı geri bildirimi yok.
 

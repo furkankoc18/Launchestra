@@ -1,6 +1,6 @@
 # Güvenlik tasarımı ve bildirim
 
-Durum: v0.1 beta adayının güvenlik sözleşmesi. Yayımlanmış, desteklenen sürüm ve public güvenlik kanalı henüz yoktur. Kaynak bağımlılığı/lisans incelemesi tamamlanmıştır.
+Durum: v0.1 beta adayının güvenlik sözleşmesi. Kaynak kod [Launchestra GitHub deposunda](https://github.com/furkankoc18/Launchestra) yayımlanmıştır; desteklenen binary sürüm ve özel güvenlik bildirim kanalı henüz yoktur. Kaynak bağımlılığı/lisans incelemesi tamamlanmıştır.
 
 ## Tehdit modeli
 
@@ -35,6 +35,6 @@ DM-023 uygulaması dışarıdan serbest metin kabul etmeyen `DiagnosticRecord` t
 
 ## Açık bildirme
 
-Özel güvenlik bildirim kanalı henüz kurulmadı. Public GitHub deposu oluşturulunca GitHub Private Vulnerability Reporting etkinleştirilmeli ve gerçek depo bağlantısı buraya yazılmalıdır. Bu DM-027/029'un açık yayın kapısıdır; sahte e-posta/depo adresi kullanılmaz.
+Özel güvenlik bildirim kanalı henüz kurulmadı. Gerçek depo `https://github.com/furkankoc18/Launchestra` adresindedir; GitHub Private Vulnerability Reporting depo ayarlarından etkinleştirilmelidir. Bu DM-027'nin açık yayın kapısıdır; kanal etkinleştirilmeden özel bildirim bağlantısı varmış gibi gösterilmez.
 
 Hassas yol, URL token'i, private key veya kullanılabilir exploit ayrıntısını public issue'ya koymayın. Özel kanal hazır değilse genel, sır içermeyen bir iletişim isteğiyle bakımcıya ulaşın. Hedef yanıt süresi henüz taahhüt edilmemiştir.

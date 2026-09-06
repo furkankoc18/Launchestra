@@ -322,7 +322,7 @@ final class DeskModeUITests: XCTestCase {
         defer { try? FileManager.default.removeItem(at: root) }
         try writeRunStore(
             to: profileDirectory,
-            profileName: "Geliştirme",
+            profileName: "Development",
             urls: [
                 "https://github.com/furkankoc18/Launchestra",
                 "https://developer.apple.com/documentation",
@@ -332,27 +332,23 @@ final class DeskModeUITests: XCTestCase {
         let app = XCUIApplication()
         app.launchEnvironment["DESKMODE_PROFILE_DIRECTORY"] = profileDirectory.path
         app.launchEnvironment["DESKMODE_RUN_UI_SMOKE_DIRECTORY"] = root.path
-        app.launchArguments = ["--e2e-ui-smoke", "-AppleLanguages", "(tr)"]
+        app.launchArguments = ["--e2e-ui-smoke", "-AppleLanguages", "(en)"]
         app.launch()
         defer { app.terminate() }
 
         XCTAssertTrue(app.buttons["run-profile-button"].firstMatch.waitForExistence(timeout: 5))
-        addDocumentationScreenshot(named: "Profiles-TR", from: app)
+        addDocumentationScreenshot(named: "Profiles-EN", from: app)
 
-        app.buttons["Geliştirme"].firstMatch.click()
+        app.buttons["Development"].firstMatch.click()
         XCTAssertTrue(app.textFields["profile-name-field"].waitForExistence(timeout: 3))
-        addDocumentationScreenshot(named: "Profile-Editor-TR", from: app)
+        addDocumentationScreenshot(named: "Profile-Editor-EN", from: app)
 
-        app.buttons["Profiller"].firstMatch.click()
+        app.buttons["Profiles"].firstMatch.click()
         let run = app.buttons["run-profile-button"].firstMatch
         XCTAssertTrue(run.waitForExistence(timeout: 3))
         run.click()
-        XCTAssertTrue(app.buttons["Profili Düzenle"].waitForExistence(timeout: 5))
-        addDocumentationScreenshot(named: "Run-Result-TR", from: app)
-
-        app.buttons["Ayarlar"].firstMatch.click()
-        XCTAssertTrue(app.descendants(matching: .any)["settings-view"].waitForExistence(timeout: 3))
-        addDocumentationScreenshot(named: "Settings-TR", from: app)
+        XCTAssertTrue(app.buttons["Edit Profile"].waitForExistence(timeout: 5))
+        addDocumentationScreenshot(named: "Run-Result-EN", from: app)
     }
 
     func testPrimaryEditorFlowWorksWithKeyboardShortcuts() throws {

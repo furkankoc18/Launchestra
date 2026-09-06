@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- 2026-09-07: Public README İngilizce olarak gerçek GitHub klon adresi, ayrıntılı kaynak kurulum, Xcode, ilk kullanım, izinler, veri konumu, sorun giderme ve test adımlarıyla genişletildi; İngilizce profil listesi, düzenleyici ve sonuç ekran görüntüleri eklendi.
+- 2026-09-07: Profil listesindeki eksik İngilizce eylem sayısı, Run düğmesi ve erişilebilirlik etiketi çevirileri tamamlandı.
+- 2026-09-07: `main` ve `v0.1.0-beta.1` kaynak etiketi public Launchestra GitHub deposuna gönderildi.
+
 ### Eklenen
 
 - 2026-09-05: DeskMode ürün analizi, v0.1 kapsamı, UX, teknik mimari ve veri/runner sözleşmeleri.
