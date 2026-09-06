@@ -315,6 +315,46 @@ final class DeskModeUITests: XCTestCase {
         XCTAssertTrue(app.staticTexts["Kapalı"].exists)
     }
 
+    func testDocumentationScreenshots() throws {
+        let root = FileManager.default.temporaryDirectory
+            .appending(component: "LaunchestraDocumentation-\(UUID().uuidString)", directoryHint: .isDirectory)
+        let profileDirectory = root.appending(component: "Profiles", directoryHint: .isDirectory)
+        defer { try? FileManager.default.removeItem(at: root) }
+        try writeRunStore(
+            to: profileDirectory,
+            profileName: "Geliştirme",
+            urls: [
+                "https://github.com/furkankoc18/Launchestra",
+                "https://developer.apple.com/documentation",
+            ]
+        )
+
+        let app = XCUIApplication()
+        app.launchEnvironment["DESKMODE_PROFILE_DIRECTORY"] = profileDirectory.path
+        app.launchEnvironment["DESKMODE_RUN_UI_SMOKE_DIRECTORY"] = root.path
+        app.launchArguments = ["--e2e-ui-smoke", "-AppleLanguages", "(tr)"]
+        app.launch()
+        defer { app.terminate() }
+
+        XCTAssertTrue(app.buttons["run-profile-button"].firstMatch.waitForExistence(timeout: 5))
+        addDocumentationScreenshot(named: "Profiles-TR", from: app)
+
+        app.buttons["Geliştirme"].firstMatch.click()
+        XCTAssertTrue(app.textFields["profile-name-field"].waitForExistence(timeout: 3))
+        addDocumentationScreenshot(named: "Profile-Editor-TR", from: app)
+
+        app.buttons["Profiller"].firstMatch.click()
+        let run = app.buttons["run-profile-button"].firstMatch
+        XCTAssertTrue(run.waitForExistence(timeout: 3))
+        run.click()
+        XCTAssertTrue(app.buttons["Profili Düzenle"].waitForExistence(timeout: 5))
+        addDocumentationScreenshot(named: "Run-Result-TR", from: app)
+
+        app.buttons["Ayarlar"].firstMatch.click()
+        XCTAssertTrue(app.descendants(matching: .any)["settings-view"].waitForExistence(timeout: 3))
+        addDocumentationScreenshot(named: "Settings-TR", from: app)
+    }
+
     func testPrimaryEditorFlowWorksWithKeyboardShortcuts() throws {
         let root = FileManager.default.temporaryDirectory
             .appending(component: "DeskModeKeyboardUI-\(UUID().uuidString)", directoryHint: .isDirectory)
@@ -643,6 +683,13 @@ final class DeskModeUITests: XCTestCase {
             .appending(component: "Launchestra.app", directoryHint: .isDirectory)
             .appending(path: "Contents/MacOS/Launchestra", directoryHint: .notDirectory)
         return FileManager.default.isExecutableFile(atPath: executable.path) ? executable : nil
+    }
+
+    private func addDocumentationScreenshot(named name: String, from app: XCUIApplication) {
+        let attachment = XCTAttachment(screenshot: app.screenshot())
+        attachment.name = name
+        attachment.lifetime = .keepAlways
+        add(attachment)
     }
 
     private func performanceFixtureData() throws -> Data {
